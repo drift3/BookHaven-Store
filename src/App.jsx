@@ -17,7 +17,7 @@ function App() {
   return (
     <AuthProvider>
       <CartProvider>
-        <Router>
+        <Router basename="/BookHaven-Store">
           <div className="min-h-screen bg-gray-50">
             <Header />
             <main className="flex-1">
