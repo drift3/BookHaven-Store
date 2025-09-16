@@ -67,19 +67,19 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
+            <h4 className="text-lg font-semibold mb-4">Contact Me</h4>
             <ul className="space-y-2">
               <li className="flex items-center text-gray-400">
                 <MapPin className="h-4 w-4 mr-2" />
-                123 Book Street, Reading City
+                Egypt, Mansoura City
               </li>
               <li className="flex items-center text-gray-400">
                 <Phone className="h-4 w-4 mr-2" />
-                +1 (555) 123-4567
+                +201020647876
               </li>
               <li className="flex items-center text-gray-400">
                 <Mail className="h-4 w-4 mr-2" />
-                support@bookhaven.com
+                a.fwork66@gmail.com
               </li>
             </ul>
             <div className="flex space-x-4 mt-4">
