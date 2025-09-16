@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 const GifReveal = ({ 
-  gifSrc = "/me.gif", 
+  gifSrc = `${import.meta.env.BASE_URL}me.gif`, 
   width = "auto",
   height = "auto",
   containerClassName = ""
