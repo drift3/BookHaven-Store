@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Star, ShoppingCart, Heart, Filter, Search } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import GifReveal from '../components/GifReveal';
 
 const Shop = () => {
   const [searchParams] = useSearchParams();
@@ -181,6 +182,8 @@ const Shop = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-8">
+      {/* Floating GIF Widget */}
+      <GifReveal />
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 sm:mb-8">
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-0">Shop Books</h1>
         <button

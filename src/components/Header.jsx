@@ -54,6 +54,9 @@ const Header = () => {
             <Link to="/orders" className="text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium">
               Orders
             </Link>
+            <Link to="/gif-reveal" className="text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium">
+              GIF Demo
+            </Link>
           </nav>
 
           <div className="flex items-center space-x-4">

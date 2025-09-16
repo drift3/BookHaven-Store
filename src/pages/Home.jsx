@@ -4,6 +4,7 @@ import { ArrowRight, Star, Truck, Shield, BookOpen } from 'lucide-react';
 import HeroSlider from '../components/HeroSlider';
 import FeaturedBooks from '../components/FeaturedBooks';
 import CategorySection from '../components/CategorySection';
+import GifReveal from '../components/GifReveal';
 
 const Home = () => {
   const features = [
@@ -26,6 +27,9 @@ const Home = () => {
 
   return (
     <div>
+      {/* Floating GIF Widget */}
+      <GifReveal />
+      
       <HeroSlider />
       
       <section className="py-8 sm:py-12 md:py-16 bg-white">
